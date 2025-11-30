@@ -1,12 +1,10 @@
-import Box from "./components/Box";
 import CanvasSetup from "./core/CanvasSetup";
-import Lights from "./core/Lights";
+import MainScene from "./core/MainScene";
 
 const App = () => {
   return (
     <CanvasSetup>
-      <Lights />
-      <Box />
+      <MainScene />
     </CanvasSetup>
   );
 };
