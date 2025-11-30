@@ -1,4 +1,6 @@
+import { OrbitControls } from "@react-three/drei";
 import Box from "../components/Box";
+import Ocean from "../components/Ocean";
 import Lights from "./Lights";
 
 const MainScene = () => {
@@ -6,6 +8,8 @@ const MainScene = () => {
     <>
       <Lights />
       <Box />
+      <Ocean />
+      <OrbitControls />
     </>
   );
 };
